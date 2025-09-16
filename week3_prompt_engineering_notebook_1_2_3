@@ -1,0 +1,392 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "task1",
+   "metadata": {},
+   "source": [
+    "### **Task 1: Introduction to Prompting**\n",
+    "\n",
+    "**Exercise 1:** Write a simple prompt asking an AI to define artificial intelligence.\n",
+    "\n",
+    "Prompt: \"Define artificial intelligence in one short paragraph.\"\n",
+    "\n",
+    "Answer: Artificial intelligence is the field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence, such as problem-solving, decision-making, language understanding, and pattern recognition.\n",
+    "\n",
+    "**Exercise 2:** Write a prompt asking the AI to explain AI as if to a 5-year-old.\n",
+    "\n",
+    "Prompt: \"Explain artificial intelligence to a 5-year-old in simple words.\"\n",
+    "\n",
+    "Answer: Artificial intelligence is like teaching a robot how to think and learn like people do. It helps computers play games, answer questions, and even talk with us."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task2",
+   "metadata": {},
+   "source": [
+    "### **Task 2: Prompt Clarity**\n",
+    "\n",
+    "**Exercise 1:** Original prompt: “Tell me about space.”\n",
+    "\n",
+    "Refined Prompt: “Write a 150-word introduction to space for middle school students, explaining stars, planets, and galaxies in a simple way.”\n",
+    "\n",
+    "Answer: Space is the huge area outside our planet where stars, planets, and galaxies exist. Stars are like giant glowing balls of gas that give off light and heat, like our Sun. Planets are big round objects that travel around stars. Earth, where we live, is one of them. Galaxies are giant collections of billions of stars, planets, and dust, all held together by gravity. Our galaxy is called the Milky Way. Space is so big that scientists use telescopes and spacecraft to study it. Even though it looks empty, space is full of exciting mysteries waiting to be discovered.\n",
+    "\n",
+    "**Exercise 2:** Original prompt: “Explain history.”\n",
+    "\n",
+    "Refined Prompt: “Explain in 100 words what history is and why it is important for high school students to learn.”\n",
+    "\n",
+    "Answer: History is the study of past events, people, and societies. It helps us understand how the world has changed and why things are the way they are today. By studying history, students learn about successes, mistakes, and lessons from the past. This knowledge helps us make better decisions in the present and future. It also teaches critical thinking and empathy by showing how different people lived in different times. Learning history is important because it connects us to our roots, builds awareness of cultures, and helps us become informed citizens."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task3",
+   "metadata": {},
+   "source": [
+    "### **Task 3: Specificity in Prompting**\n",
+    "\n",
+    "**Exercise 1:** Weak Prompt: “Tell me about dogs.”\n",
+    "\n",
+    "Improved Prompt: “Write a 120-word article for children explaining three popular dog breeds (Labrador, German Shepherd, Poodle), including their looks and personality.”\n",
+    "\n",
+    "Answer: Labradors are friendly dogs with short fur, often yellow, black, or chocolate. They are playful and love being around families. German Shepherds are strong, smart dogs with pointy ears and black-and-tan fur. They are often used as police dogs because they learn quickly. Poodles come in different sizes, with curly fur that doesn’t shed much. They are very intelligent and easy to train. All three breeds are popular because they are loving, loyal, and make great companions for children and families.\n",
+    "\n",
+    "**Exercise 2:** Weak Prompt: “Write a poem.”\n",
+    "\n",
+    "Improved Prompt: “Write a 4-line rhyming poem about the joy of riding a bicycle on a sunny day.”\n",
+    "\n",
+    "Answer:\n",
+    "The sun shines bright, the skies are clear,  \n",
+    "I ride my bike with joyful cheer.  \n",
+    "The breeze is gentle, the road feels free,  \n",
+    "A perfect day for fun and me."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task4",
+   "metadata": {},
+   "source": [
+    "### **Task 4: Role Prompting**\n",
+    "\n",
+    "**Exercise 1:** Prompt: “Act as a doctor and explain why drinking water is important for the human body in 3 bullet points.”\n",
+    "\n",
+    "Answer:\n",
+    "- Water keeps your body hydrated so organs work properly.\n",
+    "- It helps regulate body temperature and keeps energy levels steady.\n",
+    "- Drinking water supports digestion and flushes out waste.\n",
+    "\n",
+    "**Exercise 2:** Prompt: “Act as a travel guide. Recommend three family-friendly activities in Paris.”\n",
+    "\n",
+    "Answer:\n",
+    "- Visit the Eiffel Tower for amazing views of the city.\n",
+    "- Explore the Louvre Museum to see the Mona Lisa and other treasures.\n",
+    "- Take a relaxing boat ride along the Seine River."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task5",
+   "metadata": {},
+   "source": [
+    "### **Task 5: Structured Output**\n",
+    "\n",
+    "**Exercise 1:** Prompt: “Create a table comparing apples, bananas, and oranges with columns for color, taste, and vitamins.”\n",
+    "\n",
+    "Answer:\n",
+    "| Fruit   | Color       | Taste           | Vitamins      |\n",
+    "|---------|------------|----------------|---------------|\n",
+    "| Apple   | Red/Green  | Sweet/Crisp    | Vitamin C     |\n",
+    "| Banana  | Yellow     | Sweet/Soft     | Vitamin B6, C |\n",
+    "| Orange  | Orange     | Sweet/Tangy    | Vitamin C     |\n",
+    "\n",
+    "**Exercise 2:** Prompt: “Write a 3-step process for baking a cake in numbered list format.”\n",
+    "\n",
+    "Answer:\n",
+    "1. Mix flour, sugar, eggs, and butter into a smooth batter.\n",
+    "2. Pour the batter into a greased pan and bake at 180°C for 30 minutes.\n",
+    "3. Let it cool, then decorate with frosting or toppings."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task6",
+   "metadata": {},
+   "source": [
+    "### **Task 6: Iterative Prompting**\n",
+    "\n",
+    "**Exercise 1:** First attempt: “Write a short story about a dragon.”\n",
+    "\n",
+    "Answer: Once upon a time, a dragon lived on a mountain. People were afraid, but the dragon was kind and protected the valley.\n",
+    "\n",
+    "**Exercise 2:** Refined prompt: “Write a 150-word story about a friendly dragon who helps a village by protecting it from danger. Include a moral lesson.”\n",
+    "\n",
+    "Answer: A small village lay near a dark forest where many dangers lurked. The villagers feared a dragon living on the nearby mountain. One day, wolves attacked the village, and to everyone’s surprise, the dragon flew down and scared them away. The dragon explained he always wanted to be friends, not feared. Over time, the villagers and dragon built trust and helped each other. The moral is that appearances can be deceiving, and kindness is often found where least expected."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task7",
+   "metadata": {},
+   "source": [
+    "### **Task 7: Examples in Prompting**\n",
+    "\n",
+    "**Exercise 1:** Prompt: “Write three haikus about the seasons. Here’s an example of a haiku: ‘An old silent pond / A frog jumps into the pond— / Splash! Silence again.’”\n",
+    "\n",
+    "Answer:\n",
+    "Spring blossoms awake,  \n",
+    "Colors dance across the breeze,  \n",
+    "Life begins anew.  \n",
+    "\n",
+    "Summer’s golden heat,  \n",
+    "Children’s laughter fills the air,  \n",
+    "Days stretch into night.  \n",
+    "\n",
+    "Winter’s hush arrives,  \n",
+    "Snow blankets the silent earth,  \n",
+    "Peace in frosted air.  \n",
+    "\n",
+    "**Exercise 2:** Prompt: “Give two examples of polite ways to ask for help in an email.”\n",
+    "\n",
+    "Answer:\n",
+    "1. “Could you please assist me with the attached report by Friday?”\n",
+    "2. “I would greatly appreciate your guidance on this issue whenever you have time.”"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task8",
+   "metadata": {},
+   "source": [
+    "### **Task 8: Context in Prompting**\n",
+    "\n",
+    "**Exercise 1:** Weak Prompt: “Explain photosynthesis.”\n",
+    "\n",
+    "Improved Prompt: “Explain photosynthesis in 120 words for high school students, focusing on how plants use sunlight, carbon dioxide, and water to make food.”\n",
+    "\n",
+    "Answer: Photosynthesis is the process by which plants make their own food. Using sunlight, plants take in carbon dioxide from the air and water from the soil. Inside their leaves, a green substance called chlorophyll helps capture sunlight. With this energy, the plant changes carbon dioxide and water into glucose, a type of sugar that gives the plant energy to grow. Oxygen is also made during this process and released into the air. Photosynthesis is important because it provides food for plants and oxygen for humans and animals.\n",
+    "\n",
+    "**Exercise 2:** Weak Prompt: “Tell me about climate change.”\n",
+    "\n",
+    "Improved Prompt: “Write a 100-word explanation of climate change for a community newsletter, including causes and everyday actions people can take to help.”\n",
+    "\n",
+    "Answer: Climate change is when Earth’s temperature rises because of greenhouse gases like carbon dioxide. These gases trap heat, mostly from burning fuels in cars, factories, and homes. As the planet warms, we see stronger storms, rising seas, and melting ice. To help, people can save energy, recycle, plant trees, and use public transport instead of cars. Small changes by many people make a big difference in protecting our planet for future generations."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task9",
+   "metadata": {},
+   "source": [
+    "### **Task 9: Prompt Length and Detail**\n",
+    "\n",
+    "**Exercise 1:** Short Prompt: “Write about recycling.”\n",
+    "\n",
+    "Improved Prompt: “Write a 150-word blog post for teenagers explaining what recycling is, why it matters for the planet, and how they can recycle at home and school.”\n",
+    "\n",
+    "Answer: Recycling is the process of turning old or used materials into something new instead of throwing them away. It helps reduce waste, saves natural resources, and lowers pollution. For example, recycling paper saves trees, and recycling plastic keeps it out of oceans. Teenagers can make a big difference by recycling at home and school. At home, sort items like paper, glass, and cans into recycling bins. At school, use recycling stations and encourage classmates to join. Recycling helps protect the planet so future generations can enjoy a cleaner and healthier world.\n",
+    "\n",
+    "**Exercise 2:** Short Prompt: “Write a story.”\n",
+    "\n",
+    "Improved Prompt: “Write a 200-word short story for children about a lost puppy who finds his way home with the help of friendly animals.”\n",
+    "\n",
+    "Answer: A small puppy named Max got lost in the forest. Scared and alone, he barked for help. A wise old owl heard him and guided him toward the river. Along the way, a kind rabbit showed Max which path was safe. At the river, a playful deer helped Max cross the water. Finally, Max saw the lights of his village. The animals cheered as he ran home. His family hugged him tightly, thankful to the friends who had helped. Max learned that kindness can be found everywhere. The story teaches that teamwork and friendship can help overcome challenges."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task10",
+   "metadata": {},
+   "source": [
+    "### **Task 10: Meta-Prompting**\n",
+    "\n",
+    "**Exercise 1:** Meta-Prompt: “Write a prompt that asks the AI to summarize a book in 200 words for high school students.”\n",
+    "\n",
+    "Generated Prompt: “Summarize the book [title] in about 200 words, focusing on the main plot, key characters, and themes, in a way that is clear for high school students.”\n",
+    "\n",
+    "**Exercise 2:** Meta-Prompt: “Write a prompt to generate three social media captions for a new coffee shop opening.”\n",
+    "\n",
+    "Generated Prompt: “Create three catchy social media captions announcing the grand opening of a new coffee shop. Keep them under 20 words each, with a friendly and inviting tone.”"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task11",
+   "metadata": {},
+   "source": [
+    "### **Task 11: Role Prompting**\n",
+    "\n",
+    "**Exercise 1:** You are a career coach. Suggest three strategies for improving networking skills for recent graduates.\n",
+    "\n",
+    "Answer:\n",
+    "- Attend alumni and industry events: Build connections with professionals in the same field.\n",
+    "- Practice informational interviews: Reach out on LinkedIn for short chats to learn and grow your network.\n",
+    "- Improve personal brand: Keep LinkedIn updated and share insights to show expertise.\n",
+    "\n",
+    "**Exercise 2:** You are a project manager. Draft a 100-word project update email for stakeholders.\n",
+    "\n",
+    "Answer:\n",
+    "Subject: Project Update – Q3 Progress\n",
+    "\n",
+    "Dear Stakeholders,\n",
+    "We are pleased to share that the project is on track for timely completion. Phase 2 development was completed last week, and testing is now underway. Early results are positive, and no critical risks have been identified. The team remains focused on ensuring quality deliverables. Next milestone is final integration by October 15. We will provide a detailed update at the upcoming review meeting.\n",
+    "\n",
+    "Best regards,\n",
+    "[Your Name]\n",
+    "\n",
+    "**Exercise 3:** You are a marketing expert. Suggest three promotional strategies for a new fitness app launch.\n",
+    "\n",
+    "Answer:\n",
+    "- Influencer partnerships: Collaborate with fitness influencers to showcase app features.\n",
+    "- Referral program: Offer discounts or free premium days when users refer friends.\n",
+    "- Social media challenges: Launch a 30-day fitness challenge with hashtags and prizes."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task12",
+   "metadata": {},
+   "source": [
+    "### **Task 12: Zero-Shot vs Few-Shot Prompting**\n",
+    "\n",
+    "**Exercise 1:** Zero-shot: Translate the following sentence into French: \"AI is transforming the workplace.\"\n",
+    "\n",
+    "Answer: \"L'IA transforme le lieu de travail.\"\n",
+    "\n",
+    "**Exercise 2:** Few-shot: Provide two examples of translations, then translate: \"The students are learning new skills.\"\n",
+    "\n",
+    "Example 1: \"The sun is shining.\" → \"Le soleil brille.\"\n",
+    "Example 2: \"The team is working hard.\" → \"L'équipe travaille dur.\"\n",
+    "\n",
+    "Answer: \"Les étudiants apprennent de nouvelles compétences.\"\n",
+    "\n",
+    "**Exercise 3:** Reflection Question: Which approach felt more reliable and why?\n",
+    "\n",
+    "Answer: Few-shot prompting felt more reliable because the model had examples to guide style and structure, reducing ambiguity and ensuring more accurate translation."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task13",
+   "metadata": {},
+   "source": [
+    "### **Task 13: Chain of Thought (CoT) Prompting**\n",
+    "\n",
+    "**Exercise 1:** Solve: A bookstore sells novels for $12 each and magazines for $5 each. If a customer buys 4 novels and 3 magazines, how much do they spend?\n",
+    "\n",
+    "Reasoning: 4 novels × $12 = $48. 3 magazines × $5 = $15. Total = $48 + $15 = $63.\n",
+    "\n",
+    "Answer: $63\n",
+    "\n",
+    "**Exercise 2:** A school cafeteria sells sandwiches for $4 and drinks for $2. If 60 students each buy one sandwich and one drink, what is the total revenue?\n",
+    "\n",
+    "Reasoning: Each student spends $4 + $2 = $6. With 60 students, total revenue = 60 × $6 = $360.\n",
+    "\n",
+    "Answer: $360\n",
+    "\n",
+    "**Exercise 3:** Reflection: CoT helped by breaking the problem into smaller steps—calculating each item separately before summing—which reduced mistakes and clarified reasoning."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task14",
+   "metadata": {},
+   "source": [
+    "### **Task 14: Evaluation of AI Responses**\n",
+    "\n",
+    "**Exercise 1:** Evaluate: “The capital of France is Paris.”\n",
+    "\n",
+    "Answer: Correct and concise. Evaluation: 5/5.\n",
+    "\n",
+    "**Exercise 2:** Evaluate: “Water boils at 50°C.”\n",
+    "\n",
+    "Answer: Incorrect. Water boils at 100°C at sea level. Evaluation: 1/5.\n",
+    "\n",
+    "**Exercise 3:** Why is it important to evaluate?\n",
+    "\n",
+    "Answer: Evaluation ensures accuracy, reliability, and trust in AI responses. It helps identify mistakes, prevents misinformation, and improves prompt effectiveness."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task15",
+   "metadata": {},
+   "source": [
+    "### **Task 15: Multi-Step Prompting**\n",
+    "\n",
+    "**Exercise 1:** Step 1: List three renewable energy sources.\n",
+    "- Solar\n",
+    "- Wind\n",
+    "- Hydropower\n",
+    "\n",
+    "Step 2: Write one advantage and one disadvantage of each.\n",
+    "\n",
+    "- Solar: Advantage – Clean and abundant. Disadvantage – Depends on sunlight.\n",
+    "- Wind: Advantage – Sustainable and cost-effective. Disadvantage – Noisy and location-dependent.\n",
+    "- Hydropower: Advantage – Reliable and powerful. Disadvantage – Can harm ecosystems.\n",
+    "\n",
+    "**Exercise 2:** Step 1: Identify three famous scientists.\n",
+    "- Albert Einstein\n",
+    "- Marie Curie\n",
+    "- Isaac Newton\n",
+    "\n",
+    "Step 2: Write one major contribution each made.\n",
+    "- Einstein – Theory of relativity.\n",
+    "- Curie – Discovery of radioactivity.\n",
+    "- Newton – Laws of motion and gravity."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task16",
+   "metadata": {},
+   "source": [
+    "### **Task 16: Creative Prompting**\n",
+    "\n",
+    "**Exercise 1:** Prompt: “Write a diary entry from the perspective of a cat living in a busy city.”\n",
+    "\n",
+    "Answer: Dear Diary, today I climbed the rooftop to watch the cars and people below. The city is loud, but I love the smells of street food drifting in the air. A pigeon tried to steal my spot, but I hissed and claimed it. At night, I curled up on a warm windowsill and listened to music from the apartment. Life as a city cat is full of surprises!\n",
+    "\n",
+    "**Exercise 2:** Prompt: “Imagine humans lived underwater. Write a 150-word description of daily life.”\n",
+    "\n",
+    "Answer: In an underwater world, humans live inside glass domes that protect them from the ocean. People travel by swimming with fins or riding dolphins. Instead of cars, there are glowing submarines. Farms grow seaweed, algae, and fish for food. Schools are built in coral reefs, where children study while colorful fish swim outside their windows. At night, glowing jellyfish light up the streets, creating a magical view. Daily life is peaceful, but people must always maintain oxygen supplies. Festivals celebrate ocean creatures, and everyone learns to live in harmony with nature. Living underwater means adapting to the deep sea while enjoying its beauty."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "task17",
+   "metadata": {},
+   "source": [
+    "### **Task 17: Reflection and Best Practices**\n",
+    "\n",
+    "**Exercise 1:** Summarize three best practices for effective prompting.\n",
+    "- Be clear and specific in what you ask.\n",
+    "- Provide examples or structure when needed.\n",
+    "- Iterate and refine prompts based on responses.\n",
+    "\n",
+    "**Exercise 2:** Which prompting strategy was most useful to you and why?\n",
+    "\n",
+    "Answer: Role prompting was most useful because it gave structured, relevant responses. Assigning a role helped tailor answers to the audience and made results more practical.\n",
+    "\n",
+    "**Exercise 3:** How will you apply these skills in the future?\n",
+    "\n",
+    "Answer: I will apply these skills by designing clear and detailed prompts for study, work, and projects. This ensures I get accurate, useful, and well-structured responses from AI."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
